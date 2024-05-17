@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Endless Runner Demo
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 5eeebae06a8f5e54b868772760bb687d, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2800000, guid: db9f5e2b19a7fdf4693016422f897a69, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 564408675791fc247af946e34c98571d, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 6092e9737868f6f4fa6ebbbe35f75324, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: e7b971566ae0bbd40af95fc15e79d12f, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 613f77124f5157e4ba00abf82423856a,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2fd6421f253b4ef1a19526541f9ffc0c, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2230851030703149494, guid: acb912b3fbd82cc418ff99dbe5c23164,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 2bec0a7ec194b1346bb5244a77f62e03,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 25a427df617a14d41a6d54782b697009, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 6722129732376946537, guid: fed4885554148a3489108ab95270e5a3,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: e8ea538603fd61a4b87c0bc3070d9848, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 9bdef37cc5e10f34ca6e7f9a36ffd609, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: f0a430f31460e17499bba39793ea3649, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2dec855770e901c4dad450fd1eed50b8, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2c0dae4a594b2d54d875eb04497c3d70, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 1494419268109178872, guid: 58c1c17e8e942a6478133ceea87f35f1,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ee148e281f3c41c5b4ff5f8a5afe5a6c, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 9100000, guid: 5d8823a9dea580443bb07bb1b7e28232, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 8300000, guid: 4848a86a239f4c141929335badcecb68, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 9100000, guid: 3c356331a3bf6244f9f8a1495679cbf9, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: b27b18228f4bcac40b18b3ad56d464c1, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2349e50b730db31449c07c7431116711, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 8300000, guid: bc4f576fc1a1a7b488bd5b29a4b01038, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 4275432677731834682, guid: f3346a06c4ea9b644b0fc9483fe17ff8,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 919132149155446097, guid: 75b25f7b70a6b7c429eeb28a58ec6c90,
+      type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: bfa90f8eec719c74eaf7336776d42976, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 11500000, guid: 82688b0dbc28e4110b7f779bf3b5c3d6, type: 3}
+  badge: {fileID: 0}
+  addToDefaults: 0
