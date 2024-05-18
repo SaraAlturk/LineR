@@ -31,7 +31,7 @@ public class PlayerMove2 : MonoBehaviour
             Debug.Log("Left key pressed.");
             if (transform.position.x > LevelBoundries.leftSide) // stay within boundary
             {
-                horizontalMovement = Vector3.right * leftRightSpeed * Time.deltaTime;
+                horizontalMovement = Vector3.left * leftRightSpeed * Time.deltaTime;
                 Debug.Log("Moving Left");
             }
         }
@@ -42,7 +42,7 @@ public class PlayerMove2 : MonoBehaviour
             Debug.Log("Right key pressed.");
             if (transform.position.x < LevelBoundries.rightSide)
             {
-                horizontalMovement = Vector3.left * leftRightSpeed * Time.deltaTime;
+                horizontalMovement = Vector3.right * leftRightSpeed * Time.deltaTime;
                 Debug.Log("Moving Right");
             }
         }
