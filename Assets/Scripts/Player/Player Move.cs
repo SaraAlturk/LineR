@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        // Move forward constantly
+        // Move forward constantly z axis is forward backwards is a negative 
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.World);
 
         // Move left within boundaries
@@ -69,4 +69,5 @@ public class PlayerMove : MonoBehaviour
             isGrounded = false;  // Set isGrounded to false when leaving the ground
         }
     }
+
 }

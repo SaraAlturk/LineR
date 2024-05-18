@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class LevelBoundries : MonoBehaviour
 {
-    // when its static all scripts can interacte with it 
-    public static float leftSide = -1.4f;
-    public static float rightSide = 2.3f;
+    // when a variable is static all scripts can interacte with it 
+    // thus all scripts can access and modify these boundaries directly using LevelBoundries.leftSide and LevelBoundries.rightSide.
+    public static float leftSide = -4.0f;
+    public static float rightSide = 4.0f;
     public float internalLeft;
     public float internalRight;
 
     void Update()
     {
-        // when a var is static it doesn't appera in panel so we did this so its visiable in inspecter
+        // This is done so that the boundaries are visible in the Unity Inspector,
+        // even though static variables do not appear in the Inspector by default.
         internalLeft = leftSide;
         internalRight = rightSide;
 
     }
 }
+
