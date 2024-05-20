@@ -28,7 +28,7 @@ public class GenerateLevel : MonoBehaviour
         zPos +=23;
 
         //time for re-generating the section 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
         creatingSection = false;
     }
 }

@@ -8,9 +8,9 @@ public class CollectCoin : MonoBehaviour
 {
     public AudioSource coinFx;
     void OnTriggerEnter(Collider other) {
-        coinFx.Play();
- 
 
+        coinFx.Play();
+        CollectableControl.coinCount +=1;
         this.gameObject.SetActive(false);
     }
 }

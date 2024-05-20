@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: aad8994d2ad4d5f46bc8f8e6caf30b23
+  - enabled: 0
     path: Assets/Scenes/SubwaySurfer.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/main scene.unity
+    guid: 14c57a971a5bd51459da3bb2b59005aa
   m_configObjects: {}
